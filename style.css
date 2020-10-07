@@ -13,7 +13,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
   color: whitesmoke;
-    background-image: url(/website/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -256,7 +256,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/website/img/hero-texture.jpg);
+  background-image: url(img/hero-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -711,7 +711,7 @@ body{
 }
 
 #portofolio{
-  background-image: url(/website/img/fast_working.svg);
+  background-image: url(img/fast_working.svg);
   background-repeat: no-repeat;
   background-position: right;
   text-align: center;
