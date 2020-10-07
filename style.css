@@ -817,6 +817,9 @@ body{
     align-items: center;
     justify-items: center;
   }
+  .mySlides img{
+    width: 100%!important;
+  }
 }
 @media only screen and (max-width: 368px){
   .accordion-content{
@@ -859,11 +862,19 @@ body{
   .title{
     font-size: 35px;
   }
+  .mySlides{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .mySlides .text{
     font-size: 25px;
   }
   .mySlides img{
     width: 100px!important;
+    width: 100%!important;
   }
 
   #figmaicon{
